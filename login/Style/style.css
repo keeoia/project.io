@@ -1,0 +1,74 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-image: url("https://img.freepik.com/free-photo/bathroom-product-backdrop-showcase_53876-142843.jpg?t=st=1658432561~exp=1658433161~hmac=6841c90f4636af666d25049e10993cc6ba15f5f169c13d3f74861621549d2ded&w=740"); */
+  }
+  
+  .bg-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("./photo/6799.jpg");
+
+    background-size: cover;
+    background-color: rgb(241, 240, 240);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  }
+  
+  .content {
+    font-family: "Avenir-Next", Avenir, Helvetica, sans-serif;
+    color: #fff;
+    background-color: none;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 10;
+    margin-top: 0;
+  }
+  
+  h2 {
+    margin-top: 0;
+    max-width: 700px;
+    font-size: 30px;
+    width: 90%;
+  }
+  
+  p {
+    text-align: center;
+    padding-bottom: 32px;
+  }
+  
+  .btn {
+    display: inline-block;
+    border: 1px solid #aaa;
+    border-radius: 40px;
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .btn:hover {
+    color: #fcf8f8;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .btn {
+      background-color: white;
+      color: #444444;
+      width: 100%;
+    }
+  
+    h1 {
+      font-size: 120px;
+    }
+  }

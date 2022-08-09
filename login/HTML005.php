@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>html005</title>
+    <link rel="stylesheet" href="./Style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <center>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="HOME" class="topnav-icons fa fa-home w3-left w3-bar-item w3-button" title="HOME"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+
+                        <div class='btn'>
+                            <a href="HTML-1.php" style="color: black;">HOME</a>
+                        </div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">HTML</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="HTML001.php" style="color: black;">โครงสร้างภาษา HTML</a><br>
+                            <a href="HTML002.php" style="color: black;">การจัดการข้อความ</a><br>
+                            <a href="HTML003.php" style="color: black;">การตกแต่งข้อความ</a><br>
+                            <a href="HTML004.php" style="color: black;">การแสดงรายการกับการจัดการรูปภาพ</a><br>
+                            <a href="HTML005.php" style="color: black;">การสร้างตาราง</a><br>
+                            <a href="HTML006.php" style="color: black;">การเชื่อมโยงหน้าเว็บเพจ</a><br>
+                            <a href="HTML007.php" style="color: black;">การสร้างฟอร์ม</a><br>
+                        </div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">PHP</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="php001.php" style="color: black;">โครงสร้างของภาษา PHP</a><br>
+                            <a href="HTML002.php" style="color: black;">ตัวแปรและประเภทข้อมูล</a><br>
+                            <a href="HTML003.php" style="color: black;">อินพุต เอาต์พุต พื้นฐาน</a><br>
+                            <a href="HTML004.php" style="color: black;">คำสั่งเลือกเงื่อนไข</a><br>
+                            <a href="HTML005.php" style="color: black;">คลาส ในภาษา PHP</a><br>
+                            <a href="HTML006.php" style="color: black;">วันที่และเวลา ในภาษา PHP</a><br>
+                        </div>
+            </div>
+        </nav>
+
+
+        <body>
+
+            <h2>การสร้างตาราง</h2>
+            <br>
+
+            <div style="border: 2px dashed #000000; overflow: auto; width: 450px; height: auto; text-align: center;">
+                <br><br>
+                <h5>โครงสร้างของการใช้คำสั่งสร้างตาราง</h5>
+                <p style="text-align:center;">&lt;table&gt;</p>
+                <p style="text-align:center;">&lt;caption&gt;ชื่อตาราง&lt;caption&gt;</p>
+                <p style="text-align:center;">&lt;tr&gt;</p>
+                <p style="text-align:center;"> &lt;th&gt; ข้อมูลส่วนหัว &lt;/th&gt;&lt;th&gt; ข้อมูลส่วนหัว &lt;/th&gt;</p>
+                <p style="text-align:center;">&lt;/tr&gt;</p>
+                <p style="text-align:center;">&lt;tr&gt;</p>
+                <p style="text-align:center;"> &lt;td> ข้อมูล1 &lt;/td&gt; &lt;td&gt; ข้อมูล2 &lt;/td&gt;</p>
+                <p style="text-align:center;">&lt;/tr&gt;</p>
+                <p style="text-align:center;">&lt;tr&gt;</p>
+                <p style="text-align:center;"> &lt;td&gt; ข้อมูล3 &lt;/td&gt; &lt;td&gt; ข้อมูล4 &lt;/td&gt; </p>
+                <p style="text-align:center;">&lt;/tr&gt;</p>
+                <p style="text-align:center;">&lt;/table&gt;</p>
+            </div>
+            <br>
+
+            <div style="border: 2px dashed #000000; overflow: auto; width: 450px; height: auto; text-align: center;">
+                <br><br>
+                <h5>การกำหนดเส้นขอบตาราง</h5>
+                &lt;table border="n" bordercolor="ชื่อสี หรือ รหัสสี"&gt; ...&lt;/table&gt;</p>
+            </div>
+            <br>
+
+            <div style="border: 2px dashed #000000; overflow: auto; width: 450px; height: auto; text-align: center;">
+                <br><br>
+                <h5>การกำหนดสีของตาราง</h5>
+                <p style="text-align:center;"> รูปแบบ : &lt;table bgcolor="ชื่อสี หรือ รหัสสี"&gt;….&lt;/table&gt;</p>
+                <p style="text-align:center;"> ตัวอย่างการใช้งาน : &lt;table bgcolor="yellow"&gt;….&lt;/table&gt;</p>
+                <p style="text-align:center;">หรือ &lt;table bgcolor="#ffffcc"&gt;….&lt;/table&gt;</p>
+            </div>
+            <br>
+
+            <div style="border: 2px dashed #000000; overflow: auto; width: 450px; height: auto; text-align: center;">
+                <br><br>
+                <h5>การกำหนดเส้นขอบตาราง</h5>
+                <p style="text-align:center;"> รูปแบบ : &lt;table cellpadding="ระยะห่างจากขอบภายในเซลล์"&gt;….&lt;/table&gt;</p>
+                <p style="text-align:center;"> ตัวอย่างการใช้งาน : &lt;table cellpadding="10"&gt;….&lt;/table&gt;</p>
+            </div>
+            <br>
+
+            <div style="border: 2px dashed #000000; overflow: auto; width: 450px; height: auto; text-align: center;">
+                <br><br>
+                <h5>การกำหนดตำแหน่งของตาราง</h5>
+                <p style="text-align:center;"> รูปแบบ : &lt;table align="ตำแหน่งของตาราง"&gt;….&lt;/table&gt;</p>
+                <p style="text-align:center;"> align="left" คือ แสดงผลตารางให้ชิดด้านซ้ายของหน้าจอเว็บบราวเซอร์</p>
+                <p style="text-align:center;"> align="right" คือ แสดงผลตารางให้ชิดด้านขวาของหน้าจอเว็บบราวเซอร์</p>
+                <p style="text-align:center;"> align="center" คือ แสดงผลตารางให้กึ่งกลางของหน้าจอเว็บบราวเซอร์</p>
+                <p style="text-align:center;">ตัวอย่างการใช้งาน : &lt;table align="center"&gt;….&lt;/table&gt;</p>
+            </div>
+            <br>
+
+            <div style="border: 2px dashed #000000; overflow: auto; width: 450px; height: auto; text-align: center;">
+                <br><br>
+                <h5>การกำหนดคุณลักษณะพิเศษภายในแถว</h5>
+            </div>
+            <br>
+
+            <div style="border: 2px dashed #000000; overflow: auto; width: 450px; height: auto; text-align: center;">
+                <br><br>
+                <h6>1. การกำหนดตำแหน่งข้อความภายในเซลล์</h6>
+                <p style="text-align:center;"> รูปแบบ : &lt;tr align="ตำแหน่งของตาราง"&gt;…&lt;/tr&gt;</p>
+                <p style="text-align:center;"> รูปแบบ : &lt;td align="ตำแหน่งของตาราง"&gt;…&lt;/td&gt;</p>
+                <p style="text-align:center;"> ตัวอย่างการใช้งาน : &lt;tr align="ตำแหน่งของตาราง"&gt;…&lt;/tr&gt; หรือ &lt;td align="ตำแหน่งของตาราง"&gt;…&lt;/td&gt;</p>
+            </div>
+            <br>
+
+            <div style="border: 2px dashed #000000; overflow: auto; width: 450px; height: auto; text-align: center;">
+                <br><br>
+                <h6>2. การกำหนดสีพื้นให้กับแถวและในเซลล์ โดยใช้คำสั่ง bgcolor</h6>
+                <p style="text-align:center;">รูปแบบ : &lt;tr bgcolor="ชื่อสี หรือ รหัสสี"&gt;…&lt;/tr&gt;</p>
+                <p style="text-align:center;"> &lt;td bgcolor="ชื่อสี หรือ รหัสสี"&gt;…&lt;/td&gt;</p>
+                <p style="text-align:center;"> ตัวอย่างการใช้งาน : &lt;tr bgcolor="pink"&gt;…&lt;/tr&gt;</p>
+                <p style="text-align:center;"> &lt;td bgcolor=" pink"&gt;…&lt;/td&gt;</p>
+            </div>
+            <br>
+
+            <div style="border: 2px dashed #000000; overflow: auto; width: 450px; height: auto; text-align: center;">
+                <br><br>
+                <h6>3. การกำหนดตำแหน่งของข้อมูลในแนวตั้งของตาราง </h6>
+                <p style="text-align:center;"> valign="middle" คือ จัดข้อมูลให้อยู่ในตำแหน่งกึ่งกลางของช่องตาราง</p>
+                <p style="text-align:center;"> valign="bottom" คือ จัดข้อมูลให้อยู่ในตำแหน่งชิดขอบล่างของช่องตาราง</p>
+                <p style="text-align:center;"> รูปแบบ : &lt;td valign =" ตำแหน่งของข้อมูล"&gt;…&lt;/td&gt;</p>
+                <p style="text-align:center;">ตัวอย่างการใช้งาน : &lt;td valign ="middle"&gt;…&lt;/td&gt;</p>
+            </div>
+            <br>
+
+            <div style="border: 2px dashed #000000; overflow: auto; width: 450px; height: auto; text-align: center;">
+                <br><br>
+                <h5>การใส่รูปภาพลงในตาราง</h5>
+                <p style="text-align:center;"> การแทรกรูปภาพภายในช่องของตารางโดยใช้คำสั่ง <img src>ในการแทรกรูปให้อยู่ระหว่างแท็ก <td>…</td>
+                </p>
+                <p style="text-align:center;"> รูปแบบ : &lt;td &lt;img src="ชื่อแฟ้มรูปภาพ /ชื่อไฟล์รูปภาพ"&gt;…&lt;/td&gt;</p>
+                <p style="text-align:center;">ตัวอย่างการใช้งาน : &lt;td &lt;img src="images/flower.gif"&gt;&lt;/td&gt;</p>
+            </div>
+
+
+
+
+
+
+            <script src="script.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    </center>
+</body>
+
+</html>
